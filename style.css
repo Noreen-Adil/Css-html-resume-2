@@ -1,0 +1,356 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+/* left box start */
+
+ .container .left{
+ 
+    min-height: 1000vh;
+    min-width: 45vh;
+    background: rgb(184, 144, 14);
+    padding:40px ;
+    display: inline-block; 
+ }
+
+/* left box end  */
+
+/* right box start  */
+.container .right{
+    min-height: 1000vh;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    padding:40px ;
+    display: inline-block;
+    overflow: auto;    
+}
+
+/* right box end  */
+
+/* left box navbar and text and image  start */
+
+.profiletext{
+    
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    border-bottom: 1px solid rgba(255, 2555,255, 0.2);
+}
+
+.profiletext .profileimg{
+  
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    overflow: hidden;
+    align-self: center;
+    overflow: hidden;
+    border-style: ridge;
+   border-color: #faf7f7;    
+}
+
+.profiletext .profileimg img{
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.container a {
+    padding: 10px ;
+    color: rgb(221, 211, 211);
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 700;
+}
+ a:hover {
+    color: rgb(250, 250, 250);
+    
+}
+
+/* left box navbar and text and image end */
+
+/* about section start  */
+
+.right h1{
+    font-size: 80px;
+    font-family: Britannic Bold;
+   color: rgba(0, 0, 0, 0.753);
+   margin-top: 10% ;
+  
+}
+
+
+.right h4 a {
+    color: rgb(197, 178, 9);
+}
+.right h4{
+    color: #666363;
+    font-size: large;
+   margin-top: -2%;
+  
+  
+}
+h4 a:hover{
+    color: rgb(76, 83, 83);
+}
+.right .para1{
+    color: #271d1d96;
+    margin-top: 10%;
+    letter-spacing:1px;
+    
+    font-size:30px;
+}
+
+ .iconesize{
+    padding: 20px;
+font-size: 20px;
+color: rgb(255, 255, 255);
+margin-top: 60px;
+
+
+}
+ .iconesize:hover{
+    color: rgb(212, 168, 23);
+}
+   .icone{
+    
+    padding: 20px ;
+    background-color: #6e6c6c;
+    display: inline;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 20px; 
+   }
+   
+   
+
+/* about section end  */
+
+  /* experience section start  */
+.right .heading2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+   color: rgb(0, 0, 0);
+   margin-top: 10% ;
+   margin-bottom: 50px;
+}
+
+.right .subheading1{
+    font-size: 30px;
+   
+}
+
+.right .date1{
+    color: rgb(231, 109, 8);
+    font-size: larger;
+    margin-left: 700px;
+    margin-top: -40px;
+}
+.right .text1{
+    color: rgba(73, 71, 71, 0.568);
+margin-top: 20px;
+}
+    
+.right .para1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.right .subheading2{
+    font-size: 30px;
+}
+.right .date2{
+    color: rgb(231, 109, 8);
+    font-size: larger;
+    margin-left: 700px;
+    margin-top: -40px;
+
+}
+.right .text2{
+    color: rgba(73, 71, 71, 0.575);
+    margin-top: 20px;
+}
+.right .para2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #271d1d96;
+    margin-top: 10%;
+    letter-spacing:1px;
+    
+    font-size:30px;
+}
+.right .subheading3{
+    font-size: 30px;
+}
+.right .date3{
+    color: rgb(231, 109, 8);
+    font-size: larger;
+    margin-left: 700px;
+    margin-top: -40px;
+}
+.right .text3{
+    color: rgba(73, 71, 71, 0.575);
+    margin-top: 20px;
+}
+.right .para3{
+    font-family: 'Times New Roman', Times, serif;
+    color: #271d1d96;
+    margin-top: 10%;
+    letter-spacing:1px;
+    
+    font-size:30px;
+
+}
+.right .subheading4{
+    font-size: 30px;
+} 
+.right .date4{
+    color: rgb(231, 109, 8);
+    font-size: larger;
+    margin-left: 600px;
+    margin-top: -40px;
+}
+.right .text4{
+    color: rgba(73, 71, 71, 0.575);
+    margin-top: 20px;
+}
+.right .para4{
+    font-family: 'Times New Roman', Times, serif;
+    color: #271d1d96;
+    margin-top: 10%;
+    letter-spacing:1px;
+    
+    font-size:30px;
+}
+/* experience section end  */
+
+
+/* education section start  */
+.right .heading3{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+   color: rgb(0, 0, 0);
+   margin-top: 10% ;
+   margin-bottom: 50px;
+}
+.right .subhesding5{
+    font-size: 30px;
+}
+.right .date5{
+    color: rgb(231, 109, 8);
+    font-size: larger;
+    margin-left: 600px;
+    margin-top: -40px;
+}
+.right .text5{
+    color: rgba(73, 71, 71, 0.575);
+    margin-top: 20px;
+}
+.right .para5{
+    font-family: 'Times New Roman', Times, serif;
+    color: #271d1d96;
+    margin-top: 10%;
+    letter-spacing:1px;
+    
+    font-size:30px;
+}
+.right .subhesding6{
+    font-size: 30px;
+}
+.right .date6{
+    color: rgb(231, 109, 8);
+    font-size: larger;
+    margin-left: 600px;
+    margin-top: -40px;
+}
+.right .text6{
+    color: rgba(73, 71, 71, 0.575);
+    margin-top: 20px;
+}
+.right .para6{
+    font-family: 'Times New Roman', Times, serif;
+    color: #271d1d96;
+    margin-top: 10%;
+    letter-spacing:1px;
+    
+    font-size:30px;
+}
+/* education section end  */
+
+/* skills section start  */
+.right .heading4{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+   color: rgb(0, 0, 0);
+   margin-top: 10% ;
+   margin-bottom: 50px;
+
+}
+.right .text7{
+    color: rgba(73, 71, 71, 0.575);
+    margin-top: 20px;
+}
+.right .icone2{
+    font-size: 60px;
+    color: #666363;
+    display: inline;
+}
+.right .fa-li{
+   margin-top: 40px;
+}
+.right .check{
+    color: #666363;
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+/* skills section  */
+
+/* intrests section start  */
+.right .heading5{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+   color: rgb(0, 0, 0);
+   margin-top: 10% ;
+   margin-bottom: 50px;
+}
+.right .para7{
+    font-family: 'Times New Roman', Times, serif;
+    color: #271d1d96;
+    margin-top: 10%;
+    letter-spacing:1px;
+    
+    font-size:30px;
+}
+/* intrests section end  */
+
+/* award section start   */
+.right .heading6{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+   color: rgb(0, 0, 0);
+   margin-top: 10% ;
+   margin-bottom: 50px;
+}
+.right .trofytext{
+    color: #696262;
+    font-size: 20px;
+    margin-top: 10px;
+    display: inline;
+    margin-right: 100px;
+    font-family: serif;
+}
+.right .trofy{
+    color: #f8c007;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+/* award section end  */
